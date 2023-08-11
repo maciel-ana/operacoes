@@ -7,20 +7,38 @@
     --color-white:#F7F7F7;
 }
 
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+    color: var(--color-brown);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+
 body{
     background-color: var(--color-background);
     font-family: 'Poppins', sans-serif;
 }
 
 h1{
-    color: var(--color-white);
+    color: var(--color-black);
     text-align: center;
     margin-top: 2em;
 }
 
-.resultado{
-   color: var(--color-white);
-}
 
 .square{
     width: 25em;
@@ -32,8 +50,12 @@ h1{
     box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.3);
 }
 
-.charge img{
-    width: 20em;
-    margin-left: 30em;
-    margin-top: 3em;
+.piada{
+    text-decoration: none;
+    color: var(--color-black);
+    margin-top: 2em;
+}
+
+.falha{
+    font-size: small;
 }
